@@ -3,6 +3,9 @@ package com.carryless.utils.date;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * @author  carryLess
+ */
 public class DateUtils {
     private DateUtils(){}
 
@@ -16,4 +19,6 @@ public class DateUtils {
         SimpleDateFormat sdf = new SimpleDateFormat(fromatType);
         return sdf.format(now);
     }
+
+
 }
